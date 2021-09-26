@@ -19,7 +19,7 @@ body {
 #nav-heading {
   margin-top: 0;
   background-color: var(--secondary-color);
-  color: wheat;
+  color: white;
   padding: 0.5rem;
 }
 
@@ -47,7 +47,7 @@ body {
   width: 33%;
   padding: 0.2rem;
   border-radius: 0.4rem;
-  color: wheat;
+  color: white;
 }
 
 #output {
