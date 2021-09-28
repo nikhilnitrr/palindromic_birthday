@@ -56,7 +56,16 @@ body {
 
 #footer {
   position: fixed;
+  margin-top: 0.5rem;
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+#footer-heading {
+  margin-bottom: 1rem;
+}
+
+#footer a {
+  margin: 1rem;
 }
