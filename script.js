@@ -114,5 +114,14 @@ function myFunc() {
   }
 }
 
+function check() {
+  var date = input.value;
+  if (date === "" || date == undefined || date == null) {
+    output.innerText = "Please enter valid date";
+  } else {
+    myFunc();
+  }
+}
+
 // handling button click event
-btn.addEventListener("click", myFunc);
+btn.addEventListener("click", check);
